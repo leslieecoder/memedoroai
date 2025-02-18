@@ -10,9 +10,9 @@ const HomePage = () => {
   const { loginWithGoogle, user } = useAuth();
 
   return (
-    <div className="home-container flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-100 to-blue-400">
+    <div className="home-container flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-400 to-blue-500">
 
-      <Header />
+ 
 
       {/* Display the imported image */}
       <Image 
@@ -23,8 +23,8 @@ const HomePage = () => {
         className="mt-2"
       />
       
-      <h1 className="text-3xl text-pink-600 font-bold">Welcome to Puppydoro</h1>
-      <p className="text-xl text-pink-600">
+      <h1 className="text-3xl text-yellow-300 font-bold">Welcome to Puppydoro</h1>
+      <p className="text-xl text-white">
         Your productivity app for managing time and tasks.
       </p>
 
